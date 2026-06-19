@@ -1,6 +1,6 @@
-# nodejs-todo-app-deployment-on-aws
+# Node.js Todo Application Deployment on AWS ECS & ECR
+
 Deploying a Node.js Todo Application using Docker, Amazon ECR, ECS Fargate and CloudWatch Logs.
-# 🚀 Node.js Todo Application Deployment on AWS ECS & ECR
 
 ## 📌 Project Overview
 
@@ -10,7 +10,7 @@ The application was first containerized using Docker, stored in Amazon Elastic C
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```text
 Developer
@@ -41,7 +41,7 @@ Amazon CloudWatch Logs
 
 ---
 
-## 🛠️ Technologies & AWS Services Used
+## Technologies & AWS Services Used
 
 ### Development
 - Node.js
@@ -64,7 +64,7 @@ Amazon CloudWatch Logs
 
 ---
 
-## 📂 Project Workflow
+## Project Workflow
 
 ### Step 1: Application Development
 - Created a Todo Application using Node.js.
@@ -134,7 +134,7 @@ docker push <ecr-repository-uri>
 
 ---
 
-## 📋 Deployment Steps
+## Deployment Steps
 
 1. Create Node.js Application
 2. Create Dockerfile
@@ -152,7 +152,7 @@ docker push <ecr-repository-uri>
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 Through this project I gained hands-on experience in:
 
@@ -168,13 +168,7 @@ Through this project I gained hands-on experience in:
 
 ---
 
-## 💡 Interview Explanation
-
-This project demonstrates an end-to-end container deployment workflow on AWS. The Node.js application was containerized using Docker, stored in Amazon ECR, deployed through ECS Fargate, secured using IAM roles and Security Groups, and monitored using CloudWatch Logs. This project helped in understanding how modern applications are deployed and managed in a cloud-native environment.
-
----
-
-## 👩‍💻 Author
+## Author
 
 **Vedashri Giri**
 
